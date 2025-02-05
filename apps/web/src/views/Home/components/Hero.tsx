@@ -94,8 +94,8 @@ const Hero = () => {
 
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
-      <Heading scale="xxl" color="#48cdff" mb="24px" mt="30px" textAlign="center">
-        {t('TOWERSWAP EXCHANGE')}
+      <Heading scale="xl" color="#48cdff" mb="24px" mt="30px" textAlign="center">
+        {t('TOWERSWAP')}
       </Heading>
       <Heading scale="md" color="#2b2404" mb="12px" textAlign="center">
         {t(

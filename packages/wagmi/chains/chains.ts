@@ -51,7 +51,7 @@ export const zetaMainnet: Chain = {
 
 export const base: Chain = {
   id: 8453,
-  name: 'BASE L2',
+  name: 'BASE',
   network: 'Base Chain',
   rpcUrls: {
     default: 'https://base-rpc.publicnode.com',
