@@ -88,7 +88,7 @@ const config: (
     },
     {
       label: t('Launchpad'),
-      href: 'https://towerpad.org',
+      href: 'https://launch.towerpad.org',
       icon: RocketIcon,
       fillIcon: RocketIcon,
       showItemsOnMobile: false,
@@ -96,12 +96,7 @@ const config: (
       items: [
         {
           label: t('TowerPad'),
-          href: 'https://towerpad.org',
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
-        {
-          label: t('PrivateSale'),
-          href: 'https://docs.google.com/forms/d/e/1FAIpQLSegAQJ-vF0yXo-KegrIEW_ujjUsJm0NKMdRdWK-9a1FftSxQw/viewform?usp=sf_link',
+          href: 'https://launch.towerpad.org',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
