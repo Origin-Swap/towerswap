@@ -129,12 +129,7 @@ const config: (
         },
         {
           label: t('WhitePaper'),
-          href: 'https://drive.google.com/file/d/1XJpsXJnlIUo2I7GQcoLCLaD2M7BYJisV/view?usp=drive_link',
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
-        {
-          label: t('PitchDeck'),
-          href: 'https://drive.google.com/file/d/1xtNZbJ6tfF8IhUUS_zGKWuoQNdHQVKWL/view?usp=drive_link',
+          href: 'https://towerswap.gitbook.io/towerswap-finance/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
